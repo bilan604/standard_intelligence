@@ -1,0 +1,23 @@
+# App Dependencies
+
+These are the only packages actually used by the backend application in `website/backend/`.
+
+## Core Requirements
+- fastapi==0.115.8
+- uvicorn==0.34.0
+- python-docx==1.2.0
+- pdfplumber==0.11.9
+- PyMuPDF==1.27.2.2
+- openai==2.26.0
+- SQLAlchemy==2.0.37
+- python-dotenv==1.0.1
+- sendgrid==6.12.5
+- twilio==9.10.5
+- python-multipart==0.0.20
+- requests==2.33.1
+- gunicorn==23.0.0
+- psycopg2-binary==2.9.10
+- pydantic==2.12.5
+- python-dateutil==2.9.0.post0
+- lxml==6.0.3 (dependency for docx)
+- pillow==12.2.0 (dependency for docx/pdf)
