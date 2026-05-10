@@ -1,4 +1,4 @@
-from website.backend.operations import handle_standardhc_workflow
+from website.backend.app import handle_standardhc_workflow
 
 
 ret = handle_standardhc_workflow("form_dump.json")

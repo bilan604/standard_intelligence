@@ -29,6 +29,8 @@ from website.backend.generic import (
 
 # Load environment variables
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
+print(os.path.join(os.path.dirname(__file__), ".env"))
+
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
