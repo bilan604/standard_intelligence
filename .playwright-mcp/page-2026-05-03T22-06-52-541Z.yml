@@ -1,0 +1,282 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "SentraVoice Logo" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "SentraVoice Logo" [ref=e6]
+      - button "Toggle menu" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+  - main [ref=e12]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e19]: AI Active 24 / 7 / 365
+        - generic [ref=e20]: Revenue Loss Prevention System
+        - heading "Most businesses have a revenue leak they've never measured. We fix it." [level=1] [ref=e21]:
+          - text: Most businesses have a revenue leak they've never measured.
+          - generic [ref=e22]: We fix it.
+        - paragraph [ref=e23]: SentraVoice identifies exactly where your phone-based revenue is leaking and eliminates it in real time, 24/7. No hiring, no voicemail, no missed opportunities.
+        - generic [ref=e24]:
+          - link "Start Free Trial" [ref=e25] [cursor=pointer]:
+            - /url: /sign_up
+          - link "Meet Our Agents →" [ref=e26] [cursor=pointer]:
+            - /url: /agents
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: M
+            - generic [ref=e30]: A
+            - generic [ref=e31]: S
+            - generic [ref=e32]: D
+          - generic [ref=e33]: Trusted by service businesses across North America
+      - generic [ref=e35]:
+        - generic [ref=e38]: SentraVoice - Live Dashboard
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - img [ref=e46]
+            - generic [ref=e48]:
+              - generic [ref=e49]: "John D: Retained Counsel"
+              - generic [ref=e50]: Qualified
+            - generic [ref=e51]: 0:42
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - generic [ref=e56]:
+              - generic [ref=e57]: "Maria S: Booked Consultation"
+              - generic [ref=e58]: Booked
+            - generic [ref=e59]: Just now
+          - generic [ref=e60]:
+            - img [ref=e62]
+            - generic [ref=e65]:
+              - generic [ref=e66]: "Alex W: Open house booked"
+              - generic [ref=e67]: Active Now
+            - generic [ref=e68]: 1:17
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: 0.8s
+            - generic [ref=e72]: Avg. Answer
+          - generic [ref=e73]:
+            - generic [ref=e74]: 99.9%
+            - generic [ref=e75]: Uptime SLA
+          - generic [ref=e76]:
+            - generic [ref=e77]: $12k
+            - generic [ref=e78]: Recovered
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - generic [ref=e83]: 78%
+        - generic [ref=e84]: of customers buy from the first company to respond
+      - generic [ref=e85]:
+        - generic [ref=e86]: 238%
+        - generic [ref=e87]: higher conversion when you answer first
+      - generic [ref=e88]:
+        - generic [ref=e89]: $60k+
+        - generic [ref=e90]: average annual revenue lost to missed calls
+      - generic [ref=e91]:
+        - generic [ref=e92]: < 1s
+        - generic [ref=e93]: response time, every call, around the clock
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]: Revenue Calculator
+        - heading "How much revenue is your phone leaking?" [level=2] [ref=e98]
+        - paragraph [ref=e99]: Most businesses underestimate the value of missed calls. Adjust the sliders to see your potential annual impact.
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]: Missed Calls per Month
+              - generic [ref=e105]: "0"
+            - slider [ref=e106] [cursor=pointer]: "0"
+            - paragraph [ref=e107]: Include after-hours, weekends, and busy times.
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: Average Job Value
+              - generic [ref=e111]: $0
+            - slider [ref=e112] [cursor=pointer]: "0"
+            - paragraph [ref=e113]: Use your typical invoice amount.
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]: Conversion Rate
+              - generic [ref=e117]: 0%
+            - slider [ref=e118] [cursor=pointer]: "0"
+            - paragraph [ref=e119]: Adjust in 5% increments.
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: Estimated Recoverable Annual Revenue
+          - generic [ref=e122]: $0
+          - generic [ref=e123]: Conservative Estimate (0% Conversion)
+          - link "Stop Losing This Money" [ref=e124] [cursor=pointer]:
+            - /url: /sign_up
+            - button "Stop Losing This Money" [ref=e125]
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - generic [ref=e130]: The Problem
+        - heading "Missed calls = lost revenue" [level=2] [ref=e131]
+        - paragraph [ref=e132]: When a client calls and hits voicemail, they don't leave a message - they call your competitor. Most service businesses lose $60k–$200k per year simply by being unavailable.
+        - list [ref=e133]:
+          - listitem [ref=e134]: ✕ Potential clients hang up on voicemail
+          - listitem [ref=e135]: ✕ You're too busy working to answer the phone
+          - listitem [ref=e136]: ✕ Leads go cold within minutes of calling
+      - generic [ref=e137]:
+        - generic [ref=e138]: The SentraVoice Solution
+        - heading "Capture every opportunity" [level=2] [ref=e139]
+        - paragraph [ref=e140]: Our AI doesn't just take messages - it converts callers into clients. Jordan and Alex handle the intake professionally while you stay focused on the work.
+        - list [ref=e141]:
+          - listitem [ref=e142]: ✓ Instant, professional response 24/7/365
+          - listitem [ref=e143]: ✓ Real-time lead qualification
+          - listitem [ref=e144]: ✓ Direct calendar scheduling, no friction
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]: Why It Works
+        - heading "Recover leads before they reach a competitor" [level=2] [ref=e149]
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - img [ref=e153]
+          - heading "24/7 AI Receptionist" [level=3] [ref=e156]
+          - paragraph [ref=e157]: 78% of customers buy from the first company that responds. Your agent never sleeps, never takes a break, never misses a call.
+        - generic [ref=e158]:
+          - img [ref=e160]
+          - heading "Smart Qualification" [level=3] [ref=e163]
+          - paragraph [ref=e164]: 90% of customers consider immediate response critical. Our agents qualify high-value leads in real time using your exact criteria.
+        - generic [ref=e165]:
+          - img [ref=e167]
+          - heading "238% Conversion Lift" [level=3] [ref=e170]
+          - paragraph [ref=e171]: Being first to respond increases conversion dramatically. No potential client slips to a competitor while your phone rings out.
+        - generic [ref=e172]:
+          - img [ref=e174]
+          - heading "Seamless Booking" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Direct calendar integration books consultations on the spot, then fires an instant call summary to you via SMS and email.
+    - generic [ref=e179]:
+      - generic [ref=e180]:
+        - generic [ref=e181]: Meet Your New Team
+        - heading "Agents with human-grade professionalism" [level=2] [ref=e182]
+        - paragraph [ref=e183]: Each agent is trained for a specific industry and persona - not a one-size-fits-all bot.
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]: J
+            - generic [ref=e188]:
+              - heading "Jordan" [level=3] [ref=e189]
+              - generic [ref=e190]: Criminal Defence Receptionist
+          - paragraph [ref=e191]: Answers missed calls for criminal defence firms. Jordan listens to the caller's situation, reassures them they're in the right place, and books a free consultation so the lawyer can assess the case.
+          - generic [ref=e192]:
+            - generic [ref=e193]: Legal
+            - generic [ref=e194]: Intake
+            - generic [ref=e195]: Consultation Booking
+          - link "Learn more →" [ref=e196] [cursor=pointer]:
+            - /url: /agents
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]: A
+            - generic [ref=e200]:
+              - heading "Alex" [level=3] [ref=e201]
+              - generic [ref=e202]: Event Rental Specialist
+          - paragraph [ref=e203]: Trained for high-volume rental businesses. Alex reassures customers about product availability, handles objections, and secures reservations so they stop dialing your competition.
+          - generic [ref=e204]:
+            - generic [ref=e205]: Rentals
+            - generic [ref=e206]: Event Planning
+            - generic [ref=e207]: Sales
+          - link "Learn more →" [ref=e208] [cursor=pointer]:
+            - /url: /agents
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - generic [ref=e212]: Comparison
+        - heading "Why SentraVoice wins" [level=2] [ref=e213]
+        - paragraph [ref=e214]: Traditional approaches are passive. SentraVoice is the only solution that combines active 24/7 response, real-time qualification, and instant booking in a single platform.
+      - table [ref=e216]:
+        - rowgroup [ref=e217]:
+          - row "Feature Voicemail Human Agency SentraVoice AI ✦" [ref=e218]:
+            - columnheader "Feature" [ref=e219]
+            - columnheader "Voicemail" [ref=e220]
+            - columnheader "Human Agency" [ref=e221]
+            - columnheader "SentraVoice AI ✦" [ref=e222]
+        - rowgroup [ref=e223]:
+          - row "Response Time Hours / Days 5-45 Minutes < 1 Second" [ref=e224]:
+            - cell "Response Time" [ref=e225]
+            - cell "Hours / Days" [ref=e226]
+            - cell "5-45 Minutes" [ref=e227]
+            - cell "< 1 Second" [ref=e228]
+          - row "Availability 24/7 (Passive) Business Hours 24/7/365 Active" [ref=e229]:
+            - cell "Availability" [ref=e230]
+            - cell "24/7 (Passive)" [ref=e231]
+            - cell "Business Hours" [ref=e232]
+            - cell "24/7/365 Active" [ref=e233]
+          - row "Lead Qualification None Basic Script Advanced + Custom Logic" [ref=e234]:
+            - cell "Lead Qualification" [ref=e235]
+            - cell "None" [ref=e236]
+            - cell "Basic Script" [ref=e237]
+            - cell "Advanced + Custom Logic" [ref=e238]
+          - row "Calendar Booking No No Real-Time In-Call" [ref=e239]:
+            - cell "Calendar Booking" [ref=e240]
+            - cell "No" [ref=e241]
+            - cell "No" [ref=e242]
+            - cell "Real-Time In-Call" [ref=e243]
+          - row "CRM Integration Manual Delayed Instant & Automated" [ref=e244]:
+            - cell "CRM Integration" [ref=e245]
+            - cell "Manual" [ref=e246]
+            - cell "Delayed" [ref=e247]
+            - cell "Instant & Automated" [ref=e248]
+          - row "Analytics Dashboard No No Full Revenue Intelligence" [ref=e249]:
+            - cell "Analytics Dashboard" [ref=e250]
+            - cell "No" [ref=e251]
+            - cell "No" [ref=e252]
+            - cell "Full Revenue Intelligence" [ref=e253]
+          - row "Multi-Vertical Agents No No 5 Specialists + Custom" [ref=e254]:
+            - cell "Multi-Vertical Agents" [ref=e255]
+            - cell "No" [ref=e256]
+            - cell "No" [ref=e257]
+            - cell "5 Specialists + Custom" [ref=e258]
+          - row "SOC2 / HIPAA Compliant No Varies Yes - Built-In" [ref=e259]:
+            - cell "SOC2 / HIPAA Compliant" [ref=e260]
+            - cell "No" [ref=e261]
+            - cell "Varies" [ref=e262]
+            - cell "Yes - Built-In" [ref=e263]
+    - generic [ref=e265]:
+      - generic [ref=e266]:
+        - generic [ref=e267]: Trusted By
+        - heading "Businesses that rely on SentraVoice" [level=2] [ref=e268]
+      - generic [ref=e269]:
+        - img "SixBuzz logo" [ref=e271]
+        - img "Unwall logo" [ref=e273]
+        - img "Signature Celebrations logo" [ref=e275]
+        - img "TMS logo" [ref=e277]
+    - generic [ref=e279]:
+      - generic [ref=e280]:
+        - generic [ref=e281]: Success Stories
+        - heading "What our clients are saying" [level=2] [ref=e282]
+        - paragraph [ref=e283]: Real results from service businesses using SentraVoice.
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - generic [ref=e286]: ★★★★★
+          - paragraph [ref=e287]: "\"Since using Sentra Voice at Unwall, we’ve been capturing way more leads that would’ve otherwise gone to voicemail. It’s essentially turned missed calls into real project inquiries. For us, that’s been direct revenue we were losing before.\""
+          - generic [ref=e288]:
+            - generic [ref=e289]: M
+            - generic [ref=e290]:
+              - strong [ref=e291]: Andy
+              - text: Owner, Unwall Design.
+        - generic [ref=e292]:
+          - generic [ref=e293]: ★★★★★
+          - paragraph [ref=e294]: "\"The agent's been a game changer for our business. It answers all the questions accurately for our customers immediately and secures the dates. Best investment we made this year.\""
+          - generic [ref=e295]:
+            - generic [ref=e296]: D
+            - generic [ref=e297]:
+              - strong [ref=e298]: Abe
+              - text: Founder, 6ixBuzz.
+    - generic [ref=e300]:
+      - heading "Ready to capture every lead?" [level=2] [ref=e301]
+      - paragraph [ref=e302]: Join service businesses using SentraVoice to grow revenue and automate their reception. Setup takes less than 5 minutes.
+      - link "Get Started For Free" [ref=e303] [cursor=pointer]:
+        - /url: /sign_up
+  - contentinfo [ref=e304]:
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - link "Contact" [ref=e307] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy policy" [ref=e308] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of service" [ref=e309] [cursor=pointer]:
+          - /url: /terms
+        - link "FAQ" [ref=e310] [cursor=pointer]:
+          - /url: /faq
+      - generic [ref=e311]:
+        - link "Instagram" [ref=e312] [cursor=pointer]:
+          - /url: https://www.instagram.com/sentravoice/
+          - img [ref=e313]
+        - link "LinkedIn" [ref=e315] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/sentravoice
+          - img [ref=e316]

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/darkg/.claude/projects/C--Users-darkg-github-TSD/memory//**)",
+      "Read(//c/Users/darkg/.claude/projects/C--Users-darkg-github-TSD/memory/**)",
+      "Bash(npx playwright:*)",
+      "Bash(python -m uvicorn website.backend.app:app --port 8001 --host 127.0.0.1)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8001/about_us)",
+      "Bash(cat)",
+      "Bash(python3 /tmp/pw_scroll.py)",
+      "Bash(node -e ':*)",
+      "Bash(node:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.vapi.ai)",
+      "Bash(python *)",
+      "Bash(venv/Scripts/python.exe *)",
+      "Bash(bash *)",
+      "Bash(xargs grep *)",
+      "Bash(python3 *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\darkg\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--github-standard-intelligence\\\\aea8dbc4-9b7e-42fa-8f74-99ba5c616436\\\\tasks\\\\bnhfvjhv7.output\" -Wait)",
+      "Bash(Select-String -Pattern \"Successfully installed|ERROR|error|already satisfied|WARNING\" --SimpleMatch)"
+    ]
+  }
+}

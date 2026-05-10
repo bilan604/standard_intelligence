@@ -1,0 +1,48 @@
+#### For me to copy paste
+
+#### Me and AI
+./venv/Scripts/uvicorn.exe website.backend.app:app --host 127.0.0.1 --port 8000
+
+or
+
+####
+source venv/Scripts/activate
+uvicorn website.backend.app:app --host 127.0.0.1 --port 8000
+
+
+#### For AI: Start
+nohup uvicorn website.backend.app:app --host 127.0.0.1 --port 8000 &
+#### For AI: Kill and restart to refresh
+ps aux | grep uvicorn
+kill [PID]
+
+####
+./venv/Scripts/uvicorn.exe website.backend.app:app --host 127.0.0.1 --port 8000
+
+####
+git status
+git add .
+git commit -m "Update files"
+git push origin main
+
+####
+git status
+git add .
+git commit -m "Update files"
+git push origin development
+
+####
+git switch main-copy
+git reset --hard origin/main
+git pull origin main
+git push --force main-copy
+git reset --hard origin/main-copy
+
+#### View Entire Database
+python -m website.backend.VIEW_DATABASE
+
+#### View Database Table
+python -m website.backend.VIEW_DATABASE [table_name]
+
+
+
