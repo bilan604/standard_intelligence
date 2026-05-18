@@ -1039,6 +1039,7 @@ import logging
 from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml.ns import qn
 from email import policy
 from email.parser import Parser
 import pdfplumber
@@ -1350,20 +1351,24 @@ def create_local_docx_document_zh(filename, text):
         if clean_line.strip().lower() == "end of profile":
             end_paragraph = doc.add_paragraph()
             end_run = end_paragraph.add_run(clean_line.strip())
-            end_run.font.name = "Arial"
+            end_run.font.name = "SimSun"
             end_run.font.size = Pt(12)
             end_run.bold = True
             end_paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            rPr = end_run._element.get_or_add_rPr()
+            rPr.get_or_add_rFonts().set(qn('w:eastAsia'), 'SimSun')
             break
 
         paragraph = doc.add_paragraph()
         paragraph.paragraph_format.space_before = Pt(0)
         paragraph.paragraph_format.space_after = Pt(0)
         run = paragraph.add_run(clean_line)
-        run.font.name = "Arial"
+        run.font.name = "SimSun"
         run.font.size = Pt(10)
         run.bold = is_bold
         run.underline = is_underline
+        rPr = run._element.get_or_add_rPr()
+        rPr.get_or_add_rFonts().set(qn('w:eastAsia'), 'SimSun')
 
     docx_filename = ".".join(filename.split(".")[:-1]) + ".docx"
     docx_filename = re.sub(" ", "_", docx_filename)
