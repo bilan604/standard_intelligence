@@ -862,12 +862,12 @@ HERE IS THE EXACT OUTPUT TEMPLATE YOU MUST FOLLOW:
 工作经验:[BOLD]
  
 [START DATE]—[END DATE]         [COMPANY NAME][BOLD]
-                      [JOB TITLE][BOLD]
+                                [JOB TITLE][BOLD]
 工作职责：
-◇ [DUTY 1]
-◇ [DUTY 2]
-◇ [DUTY 3]
-◇ [DUTY 4]
+- [DUTY 1]
+- [DUTY 2]
+- [DUTY 3]
+- [DUTY 4]
  
 [REPEAT FOR EACH ROLE]
  
@@ -906,7 +906,7 @@ STRICT RULES. VIOLATING ANY OF THESE IS A FAILURE:
 
 9. CERTIFICATES indentation: exactly 10 spaces before each line inside 证书.
 
-10. Every duty bullet must start with ◇ followed by a space.
+10. Every duty bullet must start with - followed by a space.
 
 11. [BOLD] and [UNDERLINE] tags must appear exactly as shown in the template. Do not add them to any line not shown in the template. Do not remove them from any line shown in the template.
 
