@@ -1636,6 +1636,7 @@ def format_email_with_ai_and_send(EMAIL_OBJECT: dict, extracted_text: str):
     if lang == "zh":
         prompt_1 = NEW_RESUME_FORMATTING_PROMPT_1_ZH.replace("{{{INPUT}}}", extracted_text)
         response_1 = ask_GPT(prompt_1)
+        response_1 = "\n".join(line for line in response_1.split("\n") if line.strip() != "```")
         print(f"\n\n------------->\nresponse_1 generated:\n{response_1[:min(len(response_1), 1000)]}\n")
         buffer, docx_filename = create_local_docx_document_zh(EMAIL_OBJECT["filename"], response_1)
     else:
