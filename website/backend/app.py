@@ -1161,7 +1161,7 @@ def extract_text(filename: str, file_bytes: bytes, email_from: str) -> str:
 
     ext = filename.rsplit(".", 1)[-1].lower()
 
-    print("ext", ext)
+
     # ONLY .txt
     if ext == 'txt':
         return file_bytes.decode("utf-8", errors="replace")
@@ -1637,17 +1637,14 @@ def format_email_with_ai_and_send(EMAIL_OBJECT: dict, extracted_text: str):
         prompt_1 = NEW_RESUME_FORMATTING_PROMPT_1_ZH.replace("{{{INPUT}}}", extracted_text)
         response_1 = ask_GPT(prompt_1)
         response_1 = "\n".join(line for line in response_1.split("\n") if line.strip() != "```")
-        print(f"\n\n------------->\nresponse_1 generated:\n{response_1[:min(len(response_1), 1000)]}\n")
         buffer, docx_filename = create_local_docx_document_zh(EMAIL_OBJECT["filename"], response_1)
     else:
         prompt_1 = RESUME_FORMATTING_PROMPT_1.replace("{{{INPUT}}}", extracted_text)
         response_1 = ask_GPT(prompt_1)
-        print(f"\n\n------------->\nresponse_1 generated:\n{response_1[:min(len(response_1), 1000)]}\n")
         fixed_resume = fix_response(response_1)
-        print(f"\n\n--------------->\nfixed_resume for ({EMAIL_OBJECT['filename']}\n{fixed_resume[:min(len(fixed_resume), 1000)]}\n")
         buffer, docx_filename = create_local_docx_document(EMAIL_OBJECT["filename"], fixed_resume)
 
-    print(f"\n\n--------------->\nlocal_docx_filename:\n{docx_filename}\n")
+    logger.info(f"local_docx_filename: {docx_filename}")
 
     send_to_email = json.loads(EMAIL_OBJECT["envelope"])["from"]
     subject = f'Formatted Resume: {EMAIL_OBJECT["filename"]}'
@@ -1662,7 +1659,7 @@ def format_email_with_ai_and_send(EMAIL_OBJECT: dict, extracted_text: str):
         from_email="agent@standardhc.info",
         buffer=buffer
     )
-    print("Send email status code:", status_code)
+    logger.info(f"Send email status code: {status_code}")
 
     return {"status": "success"}
 
@@ -1677,12 +1674,11 @@ def handle_standardhc_workflow(filename):
             obj = json.loads(content)
     
     obj = simplify_email_object(obj)
-    print("obj keys:", list(obj.keys()))
+    logger.info(f"obj keys: {list(obj.keys())}")
 
     EMAIL_OBJECT = obj
 
     extracted_text = extract_text(obj["filename"], obj["content"], obj["from_email"])
-    print(f"extracted_text:\n{extracted_text}")
 
     format_email_with_ai_and_send(EMAIL_OBJECT, extracted_text)
 
